@@ -1,0 +1,125 @@
+.logo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.centerLogo {
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+header {
+    .hamburger {
+        background: none;
+        border: none;
+        z-index: 3;
+
+        & div {
+            background: white;
+            width: 30px;
+            height: 2px;
+            margin-bottom: 5px;
+
+        }
+    }
+
+    & .navbarContent {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 2;
+        background-image: url('../../static/images/photo-44589.jpg');
+        background-size: cover;
+        background-position: center;
+
+
+    }
+
+    & .allItems {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+
+        & .leftSide {
+            transform: rotate(-10deg);
+        }
+
+        & .rightSide {
+            transform: rotate(10deg);
+        }
+
+        & li {
+            width: 50%;
+            text-align: center;
+            font-family: 'Metal Mania';
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+
+            & a {
+                position: relative;
+                cursor: default;
+                width: 60%;
+                text-align: center;
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                & p {
+                    position: absolute;
+                    top: 30px;
+                    left: -20px;
+                    background-color: #801336;
+                    color: white;
+                    width: 120px;
+                    z-index: 2;
+                    border-left: 3px solid white;
+                    border-bottom: 3px solid white;
+                }
+            }
+        }
+
+        & .navCat {
+            
+            & img {
+                width: 100%;
+                height: 30vh;
+                filter: grayscale(100%);
+                z-index: 3;
+                margin-bottom: 40px;
+                cursor: pointer;
+                transition: 0.3s;
+                &:hover {
+                    filter: grayscale(0%);
+                }
+            }
+        }
+    }
+}
+
+body {
+    &.is-navigation-open {
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    .logo {
+        width: 130%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 200%;
+        height: 100%;
+    }
+}

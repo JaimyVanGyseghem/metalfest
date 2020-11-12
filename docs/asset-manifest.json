@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.f92b0d19.chunk.css",
+    "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.ce334b16.chunk.js",
+    "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.ce334b16.chunk.js.map",
+    "runtime-main.js": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js",
+    "runtime-main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js.map",
+    "static/css/2.7b66f538.chunk.css": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css",
+    "static/js/2.bd6c9873.chunk.js": "/eindwerk-JaimyVanGyseghem/static/js/2.bd6c9873.chunk.js",
+    "static/js/2.bd6c9873.chunk.js.map": "/eindwerk-JaimyVanGyseghem/static/js/2.bd6c9873.chunk.js.map",
+    "index.html": "/eindwerk-JaimyVanGyseghem/index.html",
+    "precache-manifest.e3e9aa320d93e55155f620d0b78def18.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.e3e9aa320d93e55155f620d0b78def18.js",
+    "service-worker.js": "/eindwerk-JaimyVanGyseghem/service-worker.js",
+    "static/css/2.7b66f538.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css.map",
+    "static/css/main.f92b0d19.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.f92b0d19.chunk.css.map",
+    "static/js/2.bd6c9873.chunk.js.LICENSE.txt": "/eindwerk-JaimyVanGyseghem/static/js/2.bd6c9873.chunk.js.LICENSE.txt",
+    "static/media/basket.png": "/eindwerk-JaimyVanGyseghem/static/media/basket.71501732.png",
+    "static/media/camping.jpg": "/eindwerk-JaimyVanGyseghem/static/media/camping.3bbf6387.jpg",
+    "static/media/HomePage.scss": "/eindwerk-JaimyVanGyseghem/static/media/homebackground.7334309f.png",
+    "static/media/info.jpg": "/eindwerk-JaimyVanGyseghem/static/media/info.562de2fa.jpg",
+    "static/media/line-up.jpg": "/eindwerk-JaimyVanGyseghem/static/media/line-up.94c04511.jpg",
+    "static/media/logo.png": "/eindwerk-JaimyVanGyseghem/static/media/logo.aa0623fe.png",
+    "static/media/Header.scss": "/eindwerk-JaimyVanGyseghem/static/media/photo-44589.a465e700.jpg",
+    "static/media/tickets.jpg": "/eindwerk-JaimyVanGyseghem/static/media/tickets.ce8fffaf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e41a1799.js",
+    "static/css/2.7b66f538.chunk.css",
+    "static/js/2.bd6c9873.chunk.js",
+    "static/css/main.f92b0d19.chunk.css",
+    "static/js/main.ce334b16.chunk.js"
+  ]
+}

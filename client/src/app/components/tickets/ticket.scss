@@ -1,0 +1,141 @@
+.ticketContainer {
+    color: white;
+    margin-bottom: 100px;
+
+    & .ticketTitle {
+        text-align: center;
+        font-family: 'Metal Mania';
+        font-size: 27px;
+    }
+
+    & .row {
+        & div .col-12 {
+
+            &.leftSide {
+                border-left: 5px solid white;
+                border-top: 5px solid white;
+            }
+
+            &.rightSide {
+                border-right: 5px solid white;
+                border-top: 5px solid white;
+            }
+
+            padding: 10px;
+            background: rgb(34, 34, 34);
+            background: linear-gradient(0deg, rgba(34, 34, 34, 1) 0%, rgba(74, 74, 74, 1) 49%, rgba(34, 34, 34, 1) 100%);
+
+            & .centerbtn {
+                text-align: center;
+
+                & h2 {
+                    font-family: 'Metal mania';
+                }
+
+                & button {
+                    margin: 0 auto;
+
+                    &.ticket {
+                        background-color: #801336;
+                        border: 1px solid #801336;
+                        border-right: 2px solid white;
+                        border-top: 2px solid white;
+                        color: white;
+                        font-family: 'Metal Mania';
+                        font-size: 25px;
+                        transition: 0.3s;
+
+                        &:hover {
+                            border-left: 2px solid white;
+                            border-bottom: 2px solid white;
+                            border-right: 0px solid white;
+                            border-top: 0px solid white;
+                        }
+
+                    }
+                }
+            }
+
+
+
+            & ul {
+                height: 300px;
+
+                & li {
+                    margin-top: 20px
+                }
+            }
+
+            & hr {
+                border-top: dotted 1px white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ticketContainer {
+        & .ticketTitle {
+            font-size: 24px;
+        }
+
+        & .row {
+            & div {
+                & .col-12 {
+                    ul {
+                        height: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.basketImg {
+    width: 70px;
+    position: fixed;
+    top: 50px;
+    left: 120px;
+    display: none;
+}
+
+.basketInfo {
+    position: fixed;
+    top: 125px;
+    left: 120px;
+    display: none;
+}
+
+.blockMyPrice {
+    display: block;
+}
+
+.melding {
+    background: white;
+    color: black;
+    width: 30%;
+    margin: 0 auto;
+    display: none;
+    & p {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .ticketContainer {
+        & .row {
+            & div {
+                & .col-12 {
+                    margin-bottom: 50px;
+                    &.rightSide {
+                        border-left: 5px solid white;
+                        border-right: none;
+                    }
+                    ul {
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
